@@ -1,0 +1,7 @@
+---
+Name: copytoclipboard
+---
+CMSMain:
+  extensions:
+    - CopyToClipboardExtension
+---

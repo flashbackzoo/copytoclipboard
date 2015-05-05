@@ -1,0 +1,15 @@
+{
+    "name": "flashbackzoo/copytoclipboard",
+    "description": "Copy a SilverStripe field's value to the clipboard.",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe"],
+    "authors": [
+        {
+            "name": "David Craig",
+            "email": "david@silverstripe.com"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": ">=3.1"
+    }
+}

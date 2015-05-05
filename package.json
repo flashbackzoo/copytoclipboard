@@ -1,0 +1,25 @@
+{
+  "name": "copytoclipboard",
+  "version": "1.0.0",
+  "description": "Copy a SilverStripe field's value to the clipboard.",
+  "main": "javascript/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp node_modules/zeroclipboard/dist/ZeroClipboard.min.js javascript/ && cp node_modules/zeroclipboard/dist/ZeroClipboard.swf javascript/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flashbackzoo/copytoclipboard"
+  },
+  "keywords": [
+    "SilverStripe"
+  ],
+  "author": "David Craig",
+  "bugs": {
+    "url": "https://github.com/flashbackzoo/copytoclipboard/issues"
+  },
+  "homepage": "https://github.com/flashbackzoo/copytoclipboard",
+  "dependencies": {
+    "zeroclipboard": "^2.2.0"
+  }
+}

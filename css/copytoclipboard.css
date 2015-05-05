@@ -1,0 +1,17 @@
+.copy-to-clipboard-button-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.copied-message {
+    position: absolute;
+    top: -31px;
+    left: -6px;
+    height: 16px;
+    padding: 4px 8px;
+    margin-left: 4px;
+    white-space: nowrap;
+    background: rgb(190, 235, 255);
+    border: 1px solid rgb(150, 211, 255);
+    border-radius: 4px;
+}
